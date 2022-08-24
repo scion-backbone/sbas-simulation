@@ -110,6 +110,8 @@ Post processing requires both the standard and RPKI results to regenerate figure
 plot_artifact_result.py has several dependencies that do not come out of the box with python. Crucially, it depends on Latex and some particular latex style files that matplotlib requires. On our Ubuntu 22.04 VM we had to install the following pip3 and apt dependencies with these commands.
 
 ```
+apt update
+apt install python3 python3-pip
 pip3 install matplotlib
 pip3 install seaborn
 pip3 install latex
