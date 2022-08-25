@@ -2,6 +2,8 @@
 Topology simulations based on modeling on quicksand.
 
 # Usenix 22 Artifact Evaluation
+Below are instructions for a manual dependency install. Dependencies can also be installed by creating a docker images from the dockerfile in the root directory of this repo.
+
 At a high level, the simulation code can be evaluated by running ```code/simulate.py``` with the specified input files in ```data/```. After the simulation result for the RPKI and non-RPKI simulations can be processed in to the CDF graphs in the paper using ```code/plot_artifact_result.py```. Below is a description/interpretation of the input and output formats, a description of how the input files were generated, and commands to rerun the simulations given a scaled-down version of the input files.
 
 ## An overview of simulate.py
